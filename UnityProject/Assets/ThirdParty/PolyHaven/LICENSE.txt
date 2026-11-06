@@ -1,0 +1,9 @@
+Poly Haven assets used in this project are released under CC0 1.0.
+
+Sources:
+- https://polyhaven.com/a/industrial_sunset_02
+- https://polyhaven.com/a/concrete_floor_worn_001
+- https://polyhaven.com/a/concrete_wall_003
+
+License:
+https://creativecommons.org/publicdomain/zero/1.0/

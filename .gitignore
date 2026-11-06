@@ -1,0 +1,33 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.tools/
+Unity Hub/
+reference/course/
+artifacts/
+**/bin/
+**/obj/
+*.csproj.user
+*.sln
+.vs/
+server/data/
+*.log
+
+# 本地临时文件，不属于游戏源码
+.cph/
+/*.cpp
+
+# 本地安装/验收笔记，不随公开仓库上传
+docs/ARCHITECTURE.md
+docs/COURSE_MATRIX.md
+docs/INSTALLATION.md
+docs/VALIDATION.md
+
+# 竞争性编程临时配置
+.vscode/c_cpp_properties.json
+
+# Unity 自动生成的 IDE 工程文件
+/UnityProject/*.csproj
+/UnityProject/*.sln

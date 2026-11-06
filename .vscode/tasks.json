@@ -1,0 +1,10 @@
+{
+  "version":"2.0.0",
+  "tasks":[
+    {"label":"Foundry: 打开 Unity 项目","type":"shell","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/tools/open-unity.ps1"],"problemMatcher":[]},
+    {"label":"Foundry: 构建 Windows 游戏","type":"shell","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/tools/build.ps1"],"group":{"kind":"build","isDefault":true},"problemMatcher":[]},
+    {"label":"Foundry: 启动房间服务","type":"shell","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/tools/start.ps1"],"problemMatcher":[]},
+    {"label":"Foundry: 双客户端联机","type":"shell","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/tools/play-local.ps1"],"problemMatcher":[]},
+    {"label":"Foundry: 验证规则与房间服务","type":"shell","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/tools/check.ps1"],"problemMatcher":[]}
+  ]
+}
